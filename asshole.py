@@ -1,61 +1,9 @@
-import random
 import pygame
 from pygame.locals import *
 import sys
 
-class Card:
-    def __init__(self, mark, number):
-        self.mark = mark
-        self.number = number
-        img_path = './trump/png/'+ mark + str(number) + '.png'
-        img = pygame.image.load(img_path)
-        self.img = pygame.transform.rotozoom(img, 0, 0.5)
-        self.x = 0
-        self.y = 500
-        self.clickcount = 0
-
-class Player:
-    def __init__(self, name = 'guest'):
-        self.name = name
-        self.cards = []
-        self.cards_up = []
-
-def make_dack(): #トランプの情報を作成
-    marks = ['c', 'd', 'h', 's']
-    numbers = []
-    for i in range(1, 14):
-        numbers.append(i)
-    
-    deck = [] #トランプの全情報を格納
-    for mark in range(4):
-        for num in range(13):
-            card = Card(marks[mark], numbers[num])
-            deck.append(card)
-
-    random.shuffle(deck) #全情報をシャッフル
-
-    #情報のデバッグ用
-    """ for i in range(len(deck)): # シャッフル確認
-        print(deck[i].mark, deck[i].number)
-         """
-
-    return deck
-
-def start_phase():
-    print('大富豪を始めます')
-    #開発中は２人で固定
-    #while True:
-    #    person_num = int(input('プレイヤーの人数を入力(2~4):'))
-    person_num = 2
-    #    if 2 <= person_num and person_num <=4:
-    #        break
-    player = []
-    for i in range(person_num):
-        #name = Player(input('Playerの名前を入力'))
-        #player.append(name)
-        player.append(Player())
-    
-    return player
+from person import person_class
+from trump import card_class
 
 def add_cards(player, deck): #プレイヤーにカード振り分け
     for i in range(52): #トランプを配る
@@ -124,8 +72,6 @@ def put_card(field, player):
 
     hands_open(player)
 
-
-
 def put_judge(field, p):
     #fieldが2の場合はあらかじめ流すものとして考える
     for i in range(len(p.cards_up)-1): #プレイヤがあげている数字は合っているか
@@ -149,8 +95,9 @@ def put_judge(field, p):
 def main():
 #====ゲーム前の初期設定=================
 
-    deck = make_dack()
-    player = start_phase()
+    deck = card_class.make_dack()
+    player = person_class.start_phase()
+    player[0].turn = True
     add_cards(player, deck)
     field = [] #トランプを出す場
 
