@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import *
+from pygame.locals import QUIT, MOUSEBUTTONDOWN, KEYDOWN, K_p
 import sys
 
 from person import person_class
