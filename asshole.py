@@ -2,8 +2,8 @@ import pygame
 from pygame.locals import QUIT, MOUSEBUTTONDOWN, KEYDOWN, K_p
 import sys
 
-from person import person_class
-from trump import card_class
+from person import Person
+from trump import Card
 
 def add_cards(player, deck): #プレイヤーにカード振り分け
     for i in range(52): #トランプを配る
@@ -102,8 +102,8 @@ def turn_overcheck(persons, turn):
 def main():
 #====ゲーム前の初期設定=================
 
-    deck = card_class.make_dack()
-    persons = person_class.start_phase()
+    deck = Card.make_dack()
+    persons = Person.start_phase()
     add_cards(persons, deck)
     field = [] #トランプを出す場
 

@@ -1,4 +1,4 @@
-class person_class:
+class Person:
     def __init__(self, name = 'guest'):
         self.name = name
         self.cards = []
@@ -17,7 +17,7 @@ class person_class:
         for i in range(person_num):
             #name = Player(input('Playerの名前を入力'))
             #player.append(name)
-            player.append(person_class())
+            player.append(Person())
         
         return player
 

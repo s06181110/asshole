@@ -2,7 +2,7 @@ import pygame
 import random
 
 
-class card_class:
+class Card:
     def __init__(self, mark, number):
         self.mark = mark
         self.number = number
@@ -22,7 +22,7 @@ class card_class:
         deck = [] #トランプの全情報を格納
         for mark in range(4):
             for num in range(13):
-                card = card_class(marks[mark], numbers[num])
+                card = Card(marks[mark], numbers[num])
                 deck.append(card)
 
         random.shuffle(deck) #全情報をシャッフル
