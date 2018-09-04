@@ -40,7 +40,7 @@ def show_field(screen, field):
         screen.blit(field[i].img, (field[i].x, field[i].y))
         pos += card_width
 
-def select_card(mouse_x, mouse_y, player, field): #手札を上にあげる関数
+def select_card(mouse_x, mouse_y, player, field, turn): #手札を上にあげる関数
     card_width = 600/len(player.cards) #カードの幅
     point1 = 0 #始点
     point2 = card_width #終点
@@ -51,16 +51,18 @@ def select_card(mouse_x, mouse_y, player, field): #手札を上にあげる関�
                 player.cards_up = list(set(player.cards_up)) #同じオブジェクトを保存しないように
                 player.cards[i].clickcount = 1
             else:                                        #2回目のクリックの場合             
-                put_card(field, player)
+                turn = put_card(field, player, turn)
         elif mouse_y <= 450:
             player.cards[i].clickcount = 0
             player.cards_up.clear()
         point1 = point2
         point2 += card_width
+    return turn
 
-def put_card(field, player):
+def put_card(field, player, turn):
     tmp = []
     if put_judge(field, player):
+        turn += 1
         field.clear() #初期化
         for i in range(len(player.cards)):   #手札からフィールドへ移行させる
             if player.cards[i].clickcount == 1:
@@ -69,8 +71,8 @@ def put_card(field, player):
                 tmp.append(player.cards[i])
         player.cards = tmp
         player.cards_up.clear()
-
     hands_open(player)
+    return turn
 
 def put_judge(field, p):
     #fieldが2の場合はあらかじめ流すものとして考える
@@ -92,13 +94,17 @@ def put_judge(field, p):
     print("4")
     return True
 
+def turn_overcheck(persons, turn):
+    if turn == len(persons):
+        turn = 0
+    return turn 
+
 def main():
 #====ゲーム前の初期設定=================
 
     deck = card_class.make_dack()
-    player = person_class.start_phase()
-    player[0].turn = True
-    add_cards(player, deck)
+    persons = person_class.start_phase()
+    add_cards(persons, deck)
     field = [] #トランプを出す場
 
     pygame.init()
@@ -106,20 +112,25 @@ def main():
     pygame.display.set_caption("大富豪")
     pygame.display.update()
     end_game = False
+    turn = 0
+
 
 #=====ゲーム表示================
 
     while not end_game:
         screen.fill((0, 255, 0))
 
+        turn = turn_overcheck(persons, turn)
+        player = persons[turn]
+        
         for event in pygame.event.get():
             if event.type == QUIT:
                 end_game = True
             elif event.type == MOUSEBUTTONDOWN and event.button == 1:
                 x, y = event.pos
-                select_card(x, y, player[0], field)
+                turn = select_card(x, y, player, field, turn)
         
-        show_hand(screen, player[0])
+        show_hand(screen, player)
         if len(field) != 0:
             show_field(screen, field)
             if field[0].number == 2:
