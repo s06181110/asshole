@@ -129,11 +129,16 @@ def main():
             elif event.type == MOUSEBUTTONDOWN and event.button == 1:
                 x, y = event.pos
                 turn = select_card(x, y, player, field, turn)
+            elif event.type == KEYDOWN:
+                if event.key == K_p:
+                    turn += 1
+                    field.clear()
         
         show_hand(screen, player)
         if len(field) != 0:
             show_field(screen, field)
             if field[0].number == 2:
+                turn -= 1
                 field.clear()
         
         pygame.display.flip()
