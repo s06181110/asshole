@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import pygame
 import random
 
@@ -12,7 +15,7 @@ class Card:
         self.x = 0
         self.y = 500
         self.clickcount = 0
-    
+
     def make_dack(): #トランプの情報を作成
         marks = ['c', 'd', 'h', 's']
         numbers = []

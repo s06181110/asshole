@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import pygame
 from pygame.locals import QUIT, MOUSEBUTTONDOWN, KEYDOWN, K_p
 import sys
@@ -5,10 +8,11 @@ import sys
 from person import Person
 from trump import Card
 
-def add_cards(player, deck): #プレイヤーにカード振り分け
-    for i in range(52): #トランプを配る
+def add_cards(player, deck):
+    """トランプを配る"""
+    for i in range(52):
         player[i%len(player)].cards.append(deck.pop(0))
-    
+
     for i in range(len(player)): #全員の手札の確認
         player[i].cards = sorted(player[i].cards, key=lambda u: u.number)
         hands_open(player[i])
@@ -79,19 +83,19 @@ def put_judge(field, p):
     for i in range(len(p.cards_up)-1): #プレイヤがあげている数字は合っているか
         if p.cards_up[i].number != p.cards_up[i+1].number:
             return False
-    print("1")
+
     if len(field) == 0: #場に何もないなら出せる
         return True
-    print("2")
+
     if not len(p.cards_up) == len(field): #枚数が合わない
         return False
-    print("3")
+
     if p.cards_up[0].number <= field[0].number: #fieldとの数字を比べる
         if p.cards_up[0].number == 1 or p.cards_up[0].number == 2:
             return True
         else:
             return False
-    print("4")
+
     return True
 
 def turn_overcheck(persons, turn):

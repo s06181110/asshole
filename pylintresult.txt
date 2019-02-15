@@ -1,0 +1,378 @@
+************* Module person
+W:  9, 0: Cannot decode using encoding "ascii", unexpected byte at position 15 (invalid-encoded-data)
+W: 10, 0: Cannot decode using encoding "ascii", unexpected byte at position 9 (invalid-encoded-data)
+W: 12, 0: Cannot decode using encoding "ascii", unexpected byte at position 37 (invalid-encoded-data)
+W: 18, 0: Cannot decode using encoding "ascii", unexpected byte at position 40 (invalid-encoded-data)
+W:  2, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:  2, 0: No space allowed around keyword argument assignment
+    def __init__(self, name = 'guest'):
+                            ^ (bad-whitespace)
+W:  3, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  4, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  5, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  6, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:  7, 0: Trailing whitespace (trailing-whitespace)
+W:  8, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  9, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:  9, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 13, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 16, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 17, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 20, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C: 21, 0: Trailing whitespace (trailing-whitespace)
+W: 22, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C: 23, 0: Trailing newlines (trailing-newlines)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  1, 0: Missing class docstring (missing-docstring)
+C:  1, 0: Old-style class defined. (old-style-class)
+C:  8, 4: Missing method docstring (missing-docstring)
+E:  8, 4: Method has no argument (no-method-argument)
+W: 17,12: Unused variable 'i' (unused-variable)
+R:  1, 0: Too few public methods (1/2) (too-few-public-methods)
+************* Module asshole
+W:  9, 0: Cannot decode using encoding "ascii", unexpected byte at position 7 (invalid-encoded-data)
+W: 13, 0: Cannot decode using encoding "ascii", unexpected byte at position 34 (invalid-encoded-data)
+W: 17, 0: Cannot decode using encoding "ascii", unexpected byte at position 25 (invalid-encoded-data)
+W: 19, 0: Cannot decode using encoding "ascii", unexpected byte at position 24 (invalid-encoded-data)
+W: 23, 0: Cannot decode using encoding "ascii", unexpected byte at position 32 (invalid-encoded-data)
+W: 28, 0: Cannot decode using encoding "ascii", unexpected byte at position 45 (invalid-encoded-data)
+W: 36, 0: Cannot decode using encoding "ascii", unexpected byte at position 33 (invalid-encoded-data)
+W: 44, 0: Cannot decode using encoding "ascii", unexpected byte at position 57 (invalid-encoded-data)
+W: 45, 0: Cannot decode using encoding "ascii", unexpected byte at position 40 (invalid-encoded-data)
+W: 46, 0: Cannot decode using encoding "ascii", unexpected byte at position 16 (invalid-encoded-data)
+W: 47, 0: Cannot decode using encoding "ascii", unexpected byte at position 25 (invalid-encoded-data)
+W: 49, 0: Cannot decode using encoding "ascii", unexpected byte at position 58 (invalid-encoded-data)
+W: 50, 0: Cannot decode using encoding "ascii", unexpected byte at position 58 (invalid-encoded-data)
+W: 52, 0: Cannot decode using encoding "ascii", unexpected byte at position 62 (invalid-encoded-data)
+W: 54, 0: Cannot decode using encoding "ascii", unexpected byte at position 59 (invalid-encoded-data)
+W: 67, 0: Cannot decode using encoding "ascii", unexpected byte at position 23 (invalid-encoded-data)
+W: 68, 0: Cannot decode using encoding "ascii", unexpected byte at position 46 (invalid-encoded-data)
+W: 79, 0: Cannot decode using encoding "ascii", unexpected byte at position 10 (invalid-encoded-data)
+W: 80, 0: Cannot decode using encoding "ascii", unexpected byte at position 40 (invalid-encoded-data)
+W: 84, 0: Cannot decode using encoding "ascii", unexpected byte at position 25 (invalid-encoded-data)
+W: 87, 0: Cannot decode using encoding "ascii", unexpected byte at position 43 (invalid-encoded-data)
+W: 90, 0: Cannot decode using encoding "ascii", unexpected byte at position 54 (invalid-encoded-data)
+W:104, 0: Cannot decode using encoding "ascii", unexpected byte at position 5 (invalid-encoded-data)
+W:109, 0: Cannot decode using encoding "ascii", unexpected byte at position 16 (invalid-encoded-data)
+W:113, 0: Cannot decode using encoding "ascii", unexpected byte at position 32 (invalid-encoded-data)
+W:119, 0: Cannot decode using encoding "ascii", unexpected byte at position 6 (invalid-encoded-data)
+W:  9, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 10, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 11, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 13, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 14, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 15, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 18, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C: 18, 0: Unnecessary parens after 'print' keyword (superfluous-parens)
+W: 19, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 20, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C: 21, 0: Trailing whitespace (trailing-whitespace)
+W: 21, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 24, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 25, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 26, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 27, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 28, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 29, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 30, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 31, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 32, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 33, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 36, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 37, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 38, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 39, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 40, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 41, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 42, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 45, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 46, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 47, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 48, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 49, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 50, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 51, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 52, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 53, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C: 54, 0: Trailing whitespace (trailing-whitespace)
+W: 54, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 55, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 56, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 57, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 58, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 59, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 60, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 61, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 64, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 65, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 66, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 67, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 68, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 69, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 70, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 71, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 72, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 73, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 74, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 75, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 76, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 80, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 81, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 82, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 84, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 85, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 87, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 88, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 90, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 91, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 92, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 93, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 94, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 96, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 99, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:100, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:101, 0: Trailing whitespace (trailing-whitespace)
+W:101, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:106, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:107, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:108, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:109, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:111, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:112, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:113, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:114, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:115, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:116, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:121, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:122, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:124, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:125, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:126, 0: Trailing whitespace (trailing-whitespace)
+W:127, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:128, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:129, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:130, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:131, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:132, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:133, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:134, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:135, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:136, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:137, 0: Trailing whitespace (trailing-whitespace)
+W:138, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:139, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:140, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:141, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:142, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:143, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:144, 0: Trailing whitespace (trailing-whitespace)
+W:145, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:146, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:151, 0: Final newline missing (missing-final-newline)
+W:151, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'pygame' (import-error)
+E:  2, 0: Unable to import 'pygame.locals' (import-error)
+C: 13, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 17, 0: Missing function docstring (missing-docstring)
+C: 23, 0: Missing function docstring (missing-docstring)
+C: 35, 0: Missing function docstring (missing-docstring)
+C: 38, 4: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+C: 44, 0: Missing function docstring (missing-docstring)
+C: 63, 0: Missing function docstring (missing-docstring)
+C: 78, 0: Argument name "p" doesn't conform to u'[a-z_][a-z0-9_]{2,30}$' pattern (invalid-name)
+C: 78, 0: Missing function docstring (missing-docstring)
+C: 84, 7: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+R: 91, 8: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+R: 91, 8: Unnecessary "else" after "return" (no-else-return)
+C: 98, 0: Missing function docstring (missing-docstring)
+C:103, 0: Missing function docstring (missing-docstring)
+E:136,20: Instance of 'list' has no 'clear' member (no-member)
+C:139,11: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+E:143,16: Instance of 'list' has no 'clear' member (no-member)
+C:  3, 0: standard import "import sys" should be placed before "import pygame" (wrong-import-order)
+************* Module trump
+W: 16, 0: Cannot decode using encoding "ascii", unexpected byte at position 22 (invalid-encoded-data)
+W: 22, 0: Cannot decode using encoding "ascii", unexpected byte at position 19 (invalid-encoded-data)
+W: 28, 0: Cannot decode using encoding "ascii", unexpected byte at position 30 (invalid-encoded-data)
+W: 30, 0: Cannot decode using encoding "ascii", unexpected byte at position 9 (invalid-encoded-data)
+W: 31, 0: Cannot decode using encoding "ascii", unexpected byte at position 41 (invalid-encoded-data)
+W:  6, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  7, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  8, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W:  9, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 10, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 11, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 12, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 13, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 14, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 16, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 17, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 18, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 19, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 20, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 22, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 23, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 24, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 25, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 26, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 28, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 31, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+W: 34, 0: Found indentation with spaces instead of tabs (mixed-indentation)
+C:  1, 0: Missing module docstring (missing-docstring)
+E:  1, 0: Unable to import 'pygame' (import-error)
+C:  5, 0: Missing class docstring (missing-docstring)
+C:  5, 0: Old-style class defined. (old-style-class)
+C: 16, 4: Missing method docstring (missing-docstring)
+E: 16, 4: Method has no argument (no-method-argument)
+W: 33,-1: String statement has no effect (pointless-string-statement)
+R:  5, 0: Too few public methods (1/2) (too-few-public-methods)
+C:  2, 0: standard import "import random" should be placed before "import pygame" (wrong-import-order)
+
+
+Report
+======
+154 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |3      |3          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |2      |2          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|method   |4      |4          |=          |50.00       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|function |9      |9          |=          |11.11       |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    person (asshole)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |160    |75.83 |160      |=          |
++----------+-------+------+---------+-----------+
+|docstring |4      |1.90  |3        |+1.00      |
++----------+-------+------+---------+-----------+
+|comment   |11     |5.21  |11       |=          |
++----------+-------+------+---------+-----------+
+|empty     |36     |17.06 |36       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |37     |38       |-1.00      |
++-----------+-------+---------+-----------+
+|refactor   |4      |4        |=          |
++-----------+-------+---------+-----------+
+|warning    |177    |176      |+1.00      |
++-----------+-------+---------+-----------+
+|error      |7      |7        |=          |
++-----------+-------+---------+-----------+
+
+
+
+% errors / warnings by module
+-----------------------------
+
++--------+------+--------+---------+-----------+
+|module  |error |warning |refactor |convention |
++========+======+========+=========+===========+
+|asshole |57.14 |74.58   |50.00    |62.16      |
++--------+------+--------+---------+-----------+
+|trump   |28.57 |15.82   |25.00    |13.51      |
++--------+------+--------+---------+-----------+
+|person  |14.29 |9.60    |25.00    |24.32      |
++--------+------+--------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|mixed-indentation          |140         |
++---------------------------+------------+
+|invalid-encoded-data       |35          |
++---------------------------+------------+
+|missing-docstring          |15          |
++---------------------------+------------+
+|trailing-whitespace        |8           |
++---------------------------+------------+
+|import-error               |3           |
++---------------------------+------------+
+|wrong-import-order         |2           |
++---------------------------+------------+
+|too-few-public-methods     |2           |
++---------------------------+------------+
+|superfluous-parens         |2           |
++---------------------------+------------+
+|old-style-class            |2           |
++---------------------------+------------+
+|no-method-argument         |2           |
++---------------------------+------------+
+|no-member                  |2           |
++---------------------------+------------+
+|len-as-condition           |2           |
++---------------------------+------------+
+|consider-using-enumerate   |2           |
++---------------------------+------------+
+|unused-variable            |1           |
++---------------------------+------------+
+|trailing-newlines          |1           |
++---------------------------+------------+
+|simplifiable-if-statement  |1           |
++---------------------------+------------+
+|pointless-string-statement |1           |
++---------------------------+------------+
+|no-else-return             |1           |
++---------------------------+------------+
+|missing-final-newline      |1           |
++---------------------------+------------+
+|invalid-name               |1           |
++---------------------------+------------+
+|bad-whitespace             |1           |
++---------------------------+------------+
+
+
+
+
+--------------------------------------------------------------------
+Your code has been rated at -6.43/10 (previous run: -6.43/10, +0.00)
+
